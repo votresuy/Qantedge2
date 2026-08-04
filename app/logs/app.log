@@ -1,0 +1,20 @@
+2026-07-14 20:11:33,878 | INFO | long_term_engine | [long_term] EURUSD signal=SignalAction.NO_TRADE confidence=40.28
+2026-07-14 20:11:33,880 | INFO | short_term_engine | [short_term] EURUSD signal=SignalAction.BUY confidence=97.88
+2026-07-14 20:11:40,414 | INFO | long_term_engine | [long_term] NIFTY50 index trend=TrendDirection.BEARISH confidence=100
+2026-07-18 13:37:35,998 | INFO | main | Starting up backend...
+2026-07-18 13:37:35,999 | ERROR | firebase | Firebase initialization failed: [Errno 2] No such file or directory: 'app/firebase/service_account.json'
+2026-07-18 13:37:35,999 | ERROR | main | Firebase init failed on startup: [Errno 2] No such file or directory: 'app/firebase/service_account.json'
+2026-07-18 13:37:36,001 | INFO | scheduler | Scheduler started: market poll (1m), long-term (60m), short-term (15m), position tracking (5m), expiry reminders (24h)
+2026-07-18 13:37:36,059 | INFO | main | Shutting down backend...
+2026-07-29 11:30:12,261 | INFO | scheduler | AI analysis enriched for XAUUSD (history doc hist_doc_123)
+2026-07-29 11:30:20,433 | INFO | main | Starting up backend...
+2026-07-29 11:30:20,433 | ERROR | firebase | Firebase initialization failed: [Errno 2] No such file or directory: 'app/firebase/service_account.json'
+2026-07-29 11:30:20,433 | ERROR | main | Firebase init failed on startup: [Errno 2] No such file or directory: 'app/firebase/service_account.json'
+2026-07-29 11:30:20,434 | INFO | scheduler | Scheduler started: market poll (1m), long-term (60m), short-term (15m), position tracking (5m), expiry reminders (24h)
+2026-07-29 11:30:20,467 | INFO | main | Shutting down backend...
+2026-07-29 11:32:33,195 | INFO | scheduler | AI analysis enriched for XAUUSD (history doc fake_doc_id)
+2026-08-04 08:20:34,816 | INFO | main | Starting up backend...
+2026-08-04 08:20:34,816 | ERROR | firebase | Firebase initialization failed: [Errno 2] No such file or directory: 'app/firebase/service_account.json'
+2026-08-04 08:20:34,816 | ERROR | main | Firebase init failed on startup: [Errno 2] No such file or directory: 'app/firebase/service_account.json'
+2026-08-04 08:20:34,818 | INFO | scheduler | Scheduler started: market poll (1m), long-term (60m), short-term (15m), position tracking (5m), expiry reminders (24h)
+2026-08-04 08:20:34,860 | INFO | main | Shutting down backend...
