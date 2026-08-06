@@ -21,9 +21,14 @@ def init_firebase():
     global _app, _db
     if _app is not None:
         return _app
-
     try:
-        cred = credentials.Certificate(settings.FIREBASE_CREDENTIALS_PATH)
+        firebase_json = os.environ.get("FIREBASE_SERVICE_ACCOUNT_JSON")
+        if firebase_json:
+            cred_dict = json.loads(firebase_json)
+            cred = credentials.Certificate(cred_dict)
+        else:
+            cred = credentials.Certificate(settings.FIREBASE_CREDENTIALS_PATH)
+
         _app = firebase_admin.initialize_app(cred, {"projectId": settings.FIREBASE_PROJECT_ID})
         _db = firestore.client()
         logger.info("Firebase initialized successfully")
