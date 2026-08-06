@@ -68,7 +68,7 @@ class Settings(BaseSettings):
     SIGNAL_CACHE_TTL_HOURS: int = 24
 
     # ---------- CORS ----------
-    ALLOWED_ORIGINS: List[str] = ["http://localhost:3000"]
+    ALLOWED_ORIGINS: List[str] = ["https://greater-trade.vercel.app"]
 
     # ---------- Logging ----------
     LOG_LEVEL: str = "INFO"
